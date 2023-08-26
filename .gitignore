@@ -47,3 +47,4 @@ app/*/android/app/profile
 app/*/android/app/release
 
 **/.fvm/flutter_sdk
+**/pubspec_overrides.yaml
