@@ -10,7 +10,7 @@ Feature: Lego List
         And I see {'Lego Marvel'} text
         And I see {'Lego Harry Potter'} text
         And I see {'Lego DC'} text
-    
+
     Scenario: Lego world grid is shown
         Given the flow is running with {'grid'} configuration
         Then I see {GridView} widget
@@ -24,4 +24,3 @@ Feature: Lego List
         When I tap {'Lego Harry Potter'} text
         Then navigation to {'hp'} universe is requested
 
-    
